@@ -2,6 +2,12 @@
 /*=====================================*/
 /*-- :::: Space Decrease :::: --*/
 /*=====================================*/
+@font-face {
+  font-family: gilroy;
+  src: url('../fonts/Gilroy-ExtraBold.otf');
+}
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
 .space-db--0 {
   margin-bottom: 0px;
 }
@@ -21611,7 +21617,7 @@
 
 .section-title h2 {
   color: #ffffff;
-  font-family: "Karla", sans-serif;
+  font-family: gilroy, sans-serif;
   font-weight: 700;
   font-size: 35px;
   line-height: 45px;
@@ -21932,7 +21938,7 @@
 
 .hero-content h5 {
   color: #666666;
-  font-family: 'Karla', sans-serif;
+  font-family: gilroy, sans-serif;
   font-size: 15px;
   font-weight: 700;
   letter-spacing: 2.81px;
@@ -21942,7 +21948,7 @@
 
 .hero-content h2 {
   color: #1f1f1f;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 38px;
   font-weight: 700;
   line-height: 45px;
@@ -21968,7 +21974,7 @@
 
 .hero-content p {
   color: #666666;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 18px;
   font-weight: 400;
   letter-spacing: -0.4px;
@@ -22050,7 +22056,7 @@
 
 .subscription-form .form-group input::-webkit-input-placeholder {
   color: #878b90;
-  font-family: "Karla", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 18px;
   font-weight: 400;
   letter-spacing: -0.9px;
@@ -22058,7 +22064,7 @@
 
 .subscription-form .form-group input:-ms-input-placeholder {
   color: #878b90;
-  font-family: "Karla", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 18px;
   font-weight: 400;
   letter-spacing: -0.9px;
@@ -22066,7 +22072,7 @@
 
 .subscription-form .form-group input::-ms-input-placeholder {
   color: #878b90;
-  font-family: "Karla", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 18px;
   font-weight: 400;
   letter-spacing: -0.9px;
@@ -22074,7 +22080,7 @@
 
 .subscription-form .form-group input::placeholder {
   color: #878b90;
-  font-family: "Karla", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 18px;
   font-weight: 400;
   letter-spacing: -0.9px;
@@ -22085,7 +22091,7 @@
   background-color: #fc593b;
   width: 100%;
   color: #ffffff;
-  font-family: "Karla", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 18px;
   font-weight: 700;
   letter-spacing: -0.9px;
@@ -22102,7 +22108,7 @@
 
 .subscription-form .form-text {
   color: #878b90;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 17px;
   font-weight: 400;
   letter-spacing: -0.32px;
@@ -22302,7 +22308,7 @@
 
 .content-right-content h5 {
   color: #ffffff;
-  font-family: "Karla", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 15px;
   font-weight: 700;
   letter-spacing: 2.81px;
@@ -22324,17 +22330,15 @@
 
 .content-right-content h2 {
   color: #ffffff;
-  font-family: "Karla", sans-serif;
-  font-size: 32px;
-  font-weight: 700;
-  letter-spacing: -.5px;
-  line-height: 45px;
+  font-family: gilroy, sans-serif;
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 3.5rem;
   margin-bottom: 20px;
 }
 
 @media (min-width: 576px) {
   .content-right-content h2 {
-    letter-spacing: -1.8px;
     font-size: 28px;
     line-height: 35px;
   }
@@ -22342,7 +22346,6 @@
 
 @media (min-width: 768px) {
   .content-right-content h2 {
-    letter-spacing: -2px;
     padding-right: 6px;
     font-size: 40px;
     line-height: 45px;
@@ -22351,7 +22354,6 @@
 
 @media (min-width: 992px) {
   .content-right-content h2 {
-    letter-spacing: -2.53px;
     margin-bottom: 18px;
     padding-right: 6px;
     font-size: 48px;
@@ -22367,7 +22369,7 @@
 
 .content-right-content p {
   color: #e4e4e4;
-  font-family: "Karla", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
@@ -22418,6 +22420,7 @@
 
 .content-left-image {
   width: 50%;
+  padding-bottom: 25px;
   margin: 0 auto;
 }
 .content-right-image {
@@ -22498,7 +22501,7 @@
 
 .content-left-content h5 {
   color: #258aff;
-  font-family: "Karla", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 15px;
   font-weight: 700;
   letter-spacing: 2.81px;
@@ -22514,11 +22517,11 @@
 
 .content-left-content h2 {
   color: #1f1f1f;
-  font-family: "Karla", sans-serif;
-  font-size: 35px;
-  font-weight: 700;
-  letter-spacing: -2.53px;
-  line-height: 45px;
+  font-family: gilroy, sans-serif;
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  letter-spacing: -1px;
   margin-bottom: 15px;
 }
 
@@ -22559,7 +22562,7 @@
 
 .content-left-content p {
   color: #666666;
-  font-family: "Karla", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 17px;
   font-weight: 400;
   line-height: 25px;
@@ -22637,7 +22640,7 @@
 
 .testimonial-card .card-id .id-content h6 {
   color: #1f1f1f;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 17px;
   font-weight: 700;
   letter-spacing: -0.32px;
@@ -22646,7 +22649,7 @@
 
 .testimonial-card .card-id .id-content span {
   color: #666666;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 15px;
   font-weight: 400;
   letter-spacing: -0.4px;
@@ -22658,7 +22661,7 @@
 
 .testimonial-content h5 {
   color: #258aff;
-  font-family: "Karla", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 15px;
   font-weight: 700;
   letter-spacing: 2.81px;
@@ -22680,11 +22683,11 @@
 
 .testimonial-content h2 {
   color: #1f1f1f;
-  font-family: "Karla", sans-serif;
-  font-size: 35px;
-  line-height: 45px;
-  font-weight: 700;
-  letter-spacing: -2.53px;
+  font-family: gilroy, sans-serif;
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  letter-spacing: -1px;
   margin-bottom: 10px;
 }
 
@@ -22698,7 +22701,7 @@
 
 .testimonial-content p {
   color: #666666;
-  font-family: "Karla", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 32px;
@@ -22751,10 +22754,7 @@
     Pricing Section
 //////////////////////////// */
 .pricing-section {
-  background-image: url(../image/pricing-bg.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #30067F;
 }
 
 .pricing-card {
@@ -22773,7 +22773,7 @@
 
 .pricing-card .card-head h6 {
   color: #666666;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.43px;
@@ -22784,7 +22784,7 @@
 
 .pricing-card .card-head h2 .small-title {
   color: #1f1f1f;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 30px;
   font-weight: 700;
   letter-spacing: -1.2px;
@@ -22792,7 +22792,7 @@
 
 .pricing-card .card-head h2 .big-txt {
   color: #1f1f1f;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 50px;
   font-weight: 700;
   letter-spacing: -2px;
@@ -22805,7 +22805,7 @@
 
 .pricing-card .card-head h2 .month {
   color: #1f1f1f;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 17px;
   font-weight: 700;
   letter-spacing: -0.68px;
@@ -22822,7 +22822,7 @@
 
 .pricing-card .card-content .pricing-list li {
   color: #1f1f1f;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 17px;
   font-weight: 400;
   letter-spacing: -0.42px;
