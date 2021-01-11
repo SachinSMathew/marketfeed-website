@@ -21652,7 +21652,7 @@ h4 {
 h5, .h5 {
   font-size: 16px;
   line-height: 26px;
-  letter-spacing: 0;
+  letter-spacing: -1px;
 }
 
 @media (min-width: 768px) {
@@ -21846,8 +21846,8 @@ input[type="number"] {
 }
 
 .btn--white {
-  color: #258aff;
-  background-color: #ffffff;
+  color: #000000;
+  background-color: #ffc400;
 }
 
 .btn--white:hover {

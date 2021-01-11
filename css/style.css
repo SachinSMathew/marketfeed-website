@@ -22088,9 +22088,9 @@
 
 .subscription-form .form-group button {
   border-radius: 3px;
-  background-color: #fc593b;
+  background-color: #ffc400;
   width: 100%;
-  color: #ffffff;
+  color: #000000;
   font-family: "Manrope", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -22123,7 +22123,16 @@
 .feature-area {
   padding: 45px 0;
 }
-
+.shiftLeft{
+  padding-left: 20px;
+}
+.features-p{
+  margin-left: 40px;
+  text-align: initial;
+  font-size: 15px;
+  line-height: 28px;
+  color: #666666;
+}
 @media (min-width: 992px) {
   .feature-area {
     padding: 150px 0;
@@ -22407,10 +22416,22 @@
     letter-spacing: -1px;
     min-width: 137px;
   }
+  .content-left-content .content-btn .btn {
+    height: 40px;
+    font-size: 16px;
+    letter-spacing: -1px;
+    min-width: 137px;
+  }
 }
 
 @media (min-width: 768px) {
   .content-right-content .content-btn .btn {
+    height: 60px;
+    min-width: 209px;
+    letter-spacing: -0.9px;
+    font-size: 18px;
+  }
+  .content-left-content .content-btn .btn {
     height: 60px;
     min-width: 209px;
     letter-spacing: -0.9px;
