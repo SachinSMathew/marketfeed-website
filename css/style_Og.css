@@ -21923,7 +21923,7 @@
 
 .hero-area {
   padding-bottom: 35px;
-  padding-top: 50px;
+  padding-top: 100px;
 }
 
 @media (min-width: 992px) {
@@ -22054,6 +22054,9 @@
   .content-right-content {
     margin-top: 90px;
   }
+  .brand-logo{
+    margin-left:-50px;
+  }
   .ytvideo {
     margin-left: -100px !important;
   }
@@ -22064,9 +22067,6 @@
   }
 }
 @media (min-width: 1440px){
-  .brand-logo{
-    margin-left:-50px;
-  }
   .ytvideo{
     margin-left: -80px !important;
     text-align: initial;
