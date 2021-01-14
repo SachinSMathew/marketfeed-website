@@ -21929,29 +21929,29 @@
 @media (min-width: 992px) {
   .hero-area {
     padding-bottom: 0;
+    text-align: left;
   }
-}
-
-.hero-content {
-  text-align: center;
+  .hero-content p{
+    padding: 0px;
+  }
 }
 
 .hero-content h5 {
   color: #666666;
   font-family: "Manrope", sans-serif;
-  font-size: 15px;
+  font-size: 10px;
   font-weight: 700;
   letter-spacing: 2.81px;
   text-transform: uppercase;
-  margin-bottom: 22px;
+  /* margin-bottom: 22px; */
 }
 
 .hero-content h2 {
   color: #1f1f1f;
   font-family: gilroy, sans-serif;
-  font-size: 38px;
+  font-size: 60px;
   font-weight: 700;
-  line-height: 45px;
+  line-height: 55px;
   letter-spacing: -2px;
   margin-bottom: 20px;
 }
@@ -21962,13 +21962,26 @@
     font-size: 55px;
     line-height: 60px;
   }
+  .hero-content h5 {
+    font-size: 15px;
+}
 }
 
 @media (min-width: 768px) {
   .hero-content h2 {
     letter-spacing: -4px;
     font-size: 70px;
-    line-height: 70px;
+    line-height: 80px;
+  }
+}
+
+@media (min-width: 1440px){
+  .brand-logo{
+    margin-left:-50px;
+  }
+  .ytvideo{
+    margin-left: -80px;
+    text-align: initial;
   }
 }
 
@@ -21989,45 +22002,70 @@
 
 @media (min-width: 768px) {
   .hero-content p {
-    padding: 0 30px;
+    /* padding: 0 30px; */
     margin-bottom: 4px;
     font-size: 21px;
     line-height: 36px;
   }
-}
-
-@media (min-width: 992px) {
-  .hero-content p {
-    padding: 0 40px;
-  }
+  .ytvideo{
+    display: inline !important;
+    text-align: center;
+   }
 }
 
 .subscription-form {
   padding: 25px 0 0;
 }
 
-.subscription-form .form-group {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+@media (min-width: 320px){
+  .subscription-form .form-group {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    row-gap: 20px;
+    column-gap: 20px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: row;
+  }
+  .hero-content{
+    text-align: -webkit-center;
+  }
+  .ytvideo{
+   display: none;
+  }
 }
-
-@media (min-width: 480px) {
+/* @media (min-width: 480px) {
   .subscription-form .form-group {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
+        -ms-flex-direction: column;
             flex-direction: row;
+  }
+} */
+@media (min-width: 1024px){
+  .subscription-form .form-group {
+    -webkit-box-pack: left;
+    -ms-flex-pack: left;
+    justify-content: left;
+  }
+  .hero-content{
+    text-align: left;
+  }
+  .ytvideo {
+    margin-left: -50px;
+  }
+  .ytvideo1 {
+    border-radius: 20px;
+    width: 440px !important;
+    height: 510px !important;
   }
 }
 
@@ -22089,14 +22127,15 @@
 .subscription-form .form-group button {
   border-radius: 3px;
   background-color: #ffc400;
-  width: 100%;
+  width: 170px;
+  padding: 16px;
   color: #000000;
   font-family: "Manrope", sans-serif;
   font-size: 18px;
   font-weight: 700;
   letter-spacing: -0.9px;
   height: 60px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
 }
 
 @media (min-width: 576px) {
@@ -22133,11 +22172,7 @@
   line-height: 28px;
   color: #666666;
 }
-@media (min-width: 992px) {
-  .feature-area {
-    padding: 150px 0;
-  }
-}
+
 
 .feature-widget {
   display: -webkit-box;
@@ -22300,6 +22335,11 @@
   .content-right-content {
     margin-top: 30px;
   }
+  .ytvideo1{
+    border-radius: 20px;
+    width: 640px;
+    height: 365px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -22312,6 +22352,14 @@
 @media (min-width: 1200px) {
   .content-right-content {
     margin-top: 90px;
+  }
+  .ytvideo {
+    margin-left: -80px;
+  }
+  .ytvideo1{
+    border-radius: 20px;
+    width: 640px !important;
+    height: 365px !important;
   }
 }
 

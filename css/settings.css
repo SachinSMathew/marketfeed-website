@@ -21811,8 +21811,8 @@ input[type="number"] {
 
 .btn-outlined--primary {
   background-color: transparent;
-  color: #258aff;
-  border: 2px solid #258aff;
+  color: #000000;
+  border: 2px solid #ffc400;
 }
 
 .btn-outlined--primary.btn-hover-simple:hover {
@@ -21869,7 +21869,8 @@ input[type="number"] {
   height: 40px;
   font-size: 16px;
   letter-spacing: -1px;
-  min-width: 137px;
+  min-width: 170px;
+  min-height: 60px;
 }
 
 .btn--hover-shine {
