@@ -21975,16 +21975,6 @@
   }
 }
 
-@media (min-width: 1440px){
-  .brand-logo{
-    margin-left:-50px;
-  }
-  .ytvideo{
-    margin-left: -80px;
-    text-align: initial;
-  }
-}
-
 .hero-content p {
   color: #666666;
   font-family: 'Manrope', sans-serif;
@@ -22042,14 +22032,7 @@
    display: none;
   }
 }
-/* @media (min-width: 480px) {
-  .subscription-form .form-group {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: row;
-  }
-} */
+
 @media (min-width: 1024px){
   .subscription-form .form-group {
     -webkit-box-pack: left;
@@ -22063,9 +22046,35 @@
     margin-left: -50px;
   }
   .ytvideo1 {
-    border-radius: 20px;
     width: 440px !important;
-    height: 510px !important;
+    height: 400px !important;
+  }
+}
+@media (min-width: 1200px) {
+  .content-right-content {
+    margin-top: 90px;
+  }
+  .ytvideo {
+    margin-left: -100px !important;
+  }
+  .ytvideo1{
+    border-radius: 20px;
+    width: 540px !important;
+    height: 365px !important;
+  }
+}
+@media (min-width: 1440px){
+  .brand-logo{
+    margin-left:-50px;
+  }
+  .ytvideo{
+    margin-left: -80px !important;
+    text-align: initial;
+  }
+  .ytvideo1{
+    border-radius: 20px;
+    width: 640px !important;
+    height: 365px !important;
   }
 }
 
@@ -22349,19 +22358,6 @@
   }
 }
 
-@media (min-width: 1200px) {
-  .content-right-content {
-    margin-top: 90px;
-  }
-  .ytvideo {
-    margin-left: -80px;
-  }
-  .ytvideo1{
-    border-radius: 20px;
-    width: 640px !important;
-    height: 365px !important;
-  }
-}
 
 .content-right-content h5 {
   color: #ffffff;
