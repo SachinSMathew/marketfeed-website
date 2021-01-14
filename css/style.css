@@ -21647,9 +21647,9 @@
 /* /////////////////////////// 
     Header Area
 //////////////////////////// */
-@media (min-width: 768px) {
+@media (min-width: 320px) {
   .site-header {
-    padding-top: 20px;
+    padding-top: 25px;
   }
 }
 
@@ -21923,7 +21923,7 @@
 
 .hero-area {
   padding-bottom: 35px;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 @media (min-width: 992px) {
