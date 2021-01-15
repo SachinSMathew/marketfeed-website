@@ -23,7 +23,7 @@ $('document').ready(function(){
             }
         }      
     })
-    $("button").on('click', function(event) {
+    $("a").on('click', function(event) {
 
         // Make sure this.hash has a value before overriding default behavior
         if (this.hash !== "") {
@@ -44,6 +44,11 @@ $('document').ready(function(){
           });
         } // End if
       });
+      $("button").click(function() {
+        $('html,body').animate({
+            scrollTop: $("#pricing").offset().top},
+            'slow');
+    });
 
     AOS.init({
         // Global settings:
