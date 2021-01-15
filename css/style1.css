@@ -22585,18 +22585,22 @@
     Content Sectio-01
 //////////////////////////// */
 .content-section-01 {
-  /* background-color:#121212; */
   padding: 70px 0;
-
+  background-image: -webkit-linear-gradient(0deg, #121212 100%, rgba(0, 0, 0, 0) 0%);
 }
 
 @media (min-width: 768px) {
   .content-section-01 {
     padding: 220px 0;
-    background-image: -webkit-linear-gradient(180deg, #121212 60%, rgba(0, 0, 0, 0) 0%);
+    background-image: -webkit-linear-gradient(180deg, #121212 57%, rgba(0, 0, 0, 0) 0%);
   }
 }
 @media (min-width: 1024px) {
+  .content-section-01 {
+    background-image: -webkit-linear-gradient(180deg, #121212 58%, rgba(0, 0, 0, 0) 0%);
+  }
+}
+@media (min-width: 1440px) {
   .content-section-01 {
     background-image: -webkit-linear-gradient(180deg, #121212 55%, rgba(0, 0, 0, 0) 0%);
   }
