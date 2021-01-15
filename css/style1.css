@@ -21948,8 +21948,8 @@
 .hero-content h1 {
   color: #1f1f1f;
   font-family: gilroy, sans-serif;
-  font-size: 38px;
-  font-weight: 700;
+  font-size: 3rem;
+  font-weight: 800;
   letter-spacing: -2.33px;
   line-height: 45px;
   margin-bottom: 10px;
@@ -21995,7 +21995,7 @@
 .hero-content p {
   color: #666666;
   font-family: 'Manrope', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   letter-spacing: -0.4px;
   line-height: 25px;
