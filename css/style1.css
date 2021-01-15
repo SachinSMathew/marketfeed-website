@@ -21619,7 +21619,7 @@
   color: #ffffff;
   font-family: gilroy, sans-serif;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 3.5rem;
   line-height: 45px;
   letter-spacing: -0.53px;
 }
@@ -22217,7 +22217,8 @@
   font-family: gilroy, sans-serif;
   font-family: gilroy, sans-serif;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 3.5rem;
+  line-height: 1;
   letter-spacing: -0.53px;
   margin-top: 35px;
 }
@@ -22653,7 +22654,7 @@
   color: #ffffff;
   font-family: gilroy, sans-serif;
   font-weight: 800;
-  font-size: 3rem;
+  font-size: 3.5rem;
   line-height: 3.5rem;
   margin-bottom: 20px;
 }
@@ -22852,7 +22853,7 @@
   color: #1f1f1f;
   font-family: gilroy, sans-serif;
   font-weight: 800;
-  font-size: 3rem;
+  font-size: 3.5rem;
   line-height: 3.5rem;
   letter-spacing: -1px;
   margin-bottom: 15px;
