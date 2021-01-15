@@ -21906,6 +21906,7 @@ input[type="number"] {
 .btn--white {
   color: #000000;
   background-color: #ffc400;
+  border-radius: 30px;
 }
 
 .btn--white:hover {
