@@ -22246,16 +22246,18 @@
     height: 220px;
    }
 }
+@media (min-width: 768px){
+  .hero-content {
+    text-align: left;
+}
+.subscription-form .form-group {
+  -webkit-box-pack: left;
+  -ms-flex-pack: left;
+  justify-content: left;
+}
+}
 
 @media (min-width: 1024px){
-  .subscription-form .form-group {
-    -webkit-box-pack: left;
-    -ms-flex-pack: left;
-    justify-content: left;
-  }
-  .hero-content{
-    text-align: left;
-  }
   .ytvideo {
     margin-left: -50px;
   }
