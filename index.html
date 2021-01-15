@@ -9,6 +9,8 @@
   <!-- Plugins CSS -->
   <link rel="stylesheet" href="./plugins/bootstrap-4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="./plugins/meanmenu/meanmenu.css">
+  <link rel="stylesheet" href="./plugins/fancybox-master/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="./plugins/aos-animation/aos.css">
   <!-- fonts -->
   <link rel="stylesheet" href="./fonts/ep-icon-fonts/css/style.css">
   <link rel="stylesheet" href="./fonts/fontawesome-5/css/all.min.css">
@@ -52,55 +54,17 @@
     </header>
 
     <!-- Hero Area Starts -->
-    <div class="hero-area">
-      <div class="container">
-        <div class="row">
-            <div class="col-md-12 col-lg-7 col-xl-7">
-              <div class="hero-content">
-                  <h5 style="text-transform: lowercase;">Introducing marketfeed</h5>
-                  <h2>Everything for an intelligent trader</h2>
-                  <p>Brace yourself with uncluttered market updates and <br> analysis from the house of fundfolio by athishkatham team.</p>
-              </div>
-              <div class="subscription-form">
-                <form action="#pricing" >
-                      <div class="form-group">
-                        <div><button class="submit-btn btn--hover-shine ">Download App</button></div>
-                        <div class="header-btns justify-content-end"><a href="" class="btn btn-outlined--primary btn-sm">Watch Video</a></div>
-                      </div>
-                </form>
-              </div>
-            </div>
-            <div class="col-md-12 col-lg-4 ytvideo">
-              <div>
-              <style>.hytPlayerWrap{display: inline-block; position: relative;}.hytPlayerWrap.ended::after{content:""; border-radius:20px; position: absolute; top: 0; left: 0; bottom: 0; right: 0; cursor: pointer; background-color: black; background-repeat: no-repeat; background-position: center; background-size:  64px 64px; background-image: url(data:image/svg+xml;utf8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgNTEwIDUxMCI+PHBhdGggZD0iTTI1NSAxMDJWMEwxMjcuNSAxMjcuNSAyNTUgMjU1VjE1M2M4NC4xNSAwIDE1MyA2OC44NSAxNTMgMTUzcy02OC44NSAxNTMtMTUzIDE1My0xNTMtNjguODUtMTUzLTE1M0g1MWMwIDExMi4yIDkxLjggMjA0IDIwNCAyMDRzMjA0LTkxLjggMjA0LTIwNC05MS44LTIwNC0yMDQtMjA0eiIgZmlsbD0iI0ZGRiIvPjwvc3ZnPg==);}.hytPlayerWrap.paused::after{content:""; border-radius:20px; position: absolute; top: 0; left: 0; bottom: 0; right: 0; cursor: pointer; background-color: black; background-repeat: no-repeat; background-position: center; background-size: 64px 64px; background-image: url(data:image/svg+xml;utf8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEiIHdpZHRoPSIxNzA2LjY2NyIgaGVpZ2h0PSIxNzA2LjY2NyIgdmlld0JveD0iMCAwIDEyODAgMTI4MCI+PHBhdGggZD0iTTE1Ny42MzUgMi45ODRMMTI2MC45NzkgNjQwIDE1Ny42MzUgMTI3Ny4wMTZ6IiBmaWxsPSIjZmZmIi8+PC9zdmc+);}</style><div class="hytPlayerWrapOuter"> <div class="hytPlayerWrap"> <iframe class="ytvideo1" src="https://www.youtube.com/embed/7p8BkdM7-k4?&controls=0&rel=0&enablejsapi=1"  frameborder="0" ></iframe> </div></div><script>"use strict"; document.addEventListener('DOMContentLoaded', function(){if (window.hideYTActivated) return; let onYouTubeIframeAPIReadyCallbacks=[]; for (let playerWrap of document.querySelectorAll(".hytPlayerWrap")){let playerFrame=playerWrap.querySelector("iframe"); let tag=document.createElement('script'); tag.src="https://www.youtube.com/iframe_api"; let firstScriptTag=document.getElementsByTagName('script')[0]; firstScriptTag.parentNode.insertBefore(tag, firstScriptTag); let onPlayerStateChange=function(event){if (event.data==YT.PlayerState.ENDED){playerWrap.classList.add("ended");}else if (event.data==YT.PlayerState.PAUSED){playerWrap.classList.add("paused");}else if (event.data==YT.PlayerState.PLAYING){playerWrap.classList.remove("ended"); playerWrap.classList.remove("paused");}}; let player; onYouTubeIframeAPIReadyCallbacks.push(function(){player=new YT.Player(playerFrame,{events:{'onStateChange': onPlayerStateChange}});}); playerWrap.addEventListener("click", function(){let playerState=player.getPlayerState(); if (playerState==YT.PlayerState.ENDED){player.seekTo(0);}else if (playerState==YT.PlayerState.PAUSED){player.playVideo();}});}window.onYouTubeIframeAPIReady=function(){for (let callback of onYouTubeIframeAPIReadyCallbacks){callback();}}; window.hideYTActivated=true;});</script>
-            </div>
-            </div>
-            
-            <!-- <div class="col-lg-7 col-xl-6">
-                <div class="subscription-form">
-                  <form action="">
-                        <div class="form-group">
-                          <input type="text" class="form-control" placeholder="Enter your phone number">
-                          <button class="submit-btn btn--hover-shine ">Start my free trial</button>
-                        </div>
-                        <p class="form-text">Trused by over 50,000+ traders</p>
-                  </form>
-                </div>
-            </div> -->
-        </div>
-      </div>
-    </div>
     <div class="hero-area position-relative">
       <div class="container">
         <div class="row">
           <div class="col-xl-6 col-lg-6 col-md-7 col-12">
             <div class="hero-content">
               <h5 style="text-transform: lowercase;">Introducing marketfeed</h5>
-              <h2>Everything for an intelligent trader</h2>
+              <h1>Everything for an intelligent trader</h2>
               <p>Brace yourself with uncluttered market updates and <br> analysis from the house of fundfolio by athishkatham team.</p>
           </div>
           <div class="subscription-form">
-            <form action="#pricing" >
+            <form action="" >
                   <div class="form-group">
                     <div><button class="submit-btn btn--hover-shine ">Download App</button></div>
                     <div class="header-btns justify-content-end"><a href="" class="btn btn-outlined--primary btn-sm">Watch Video</a></div>
@@ -108,17 +72,15 @@
             </form>
           </div>
           </div>
-    
           <div class="col-xl-6 col-lg-6 col-md-5 col-12">
             <div class="hero-media">
               <img class="hero-img" src="image/hero.png" alt="">
-              <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"><i class="icon icon-triangle-right-17-2"></i></a>
+              <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=7p8BkdM7-k4"><i class="icon icon-triangle-right-17-2"></i></a>
               <div class="media-shape animate-spin"><img src="image/media-shape.png" alt=""></div>
             </div>
           </div>
         </div>
       </div>
-      <div class="shape-holder hero-shape" data-aos="fade-right" data-aos-once="true"><img src="image/hero-orange-shape.svg" alt=""></div>
     </div>
     
     <!-- Feature Area Starts -->
@@ -507,10 +469,11 @@
   <script src="./plugins/jquery/jquery-migrate.min.js"></script>
   <script src="./plugins/bootstrap-4.3.1/js/bootstrap.bundle.js"></script>
   <script src="./plugins/meanmenu/jquery.meanmenu.js"></script>
-  <script src="./plugins/fancybox-master/jquery.fancybox.min.js"></script>
-  <script src="./plugins/aos-animation/aos.js"></script>
+  
   <!-- Plugins JS -->
   <script src="./js/active.js"></script>
+  <script src="./plugins/fancybox-master/jquery.fancybox.min.js"></script>
+  <script src="./plugins/aos-animation/aos.js"></script>
 </body>
 
 </html>
