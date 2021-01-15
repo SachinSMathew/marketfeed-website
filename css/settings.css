@@ -21870,6 +21870,7 @@ input[type="number"] {
   background-color: transparent;
   color: #000000;
   border: 2px solid #ffc400;
+  border-radius: 30px;
 }
 
 .btn-outlined--primary.btn-hover-simple:hover {
