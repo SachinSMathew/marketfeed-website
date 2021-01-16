@@ -22196,10 +22196,11 @@
 /* ///////////////////////////
          CTA Section
 //////////////////////////// */
+.cta-section {
+  padding: 7% 0;
+}
 .cta-content {
-  padding-top: 52px;
-  padding-bottom: 60px;
-  text-align: left;
+  text-align: center;
 }
 
 @media (min-width: 992px) {
