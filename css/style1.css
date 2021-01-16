@@ -21603,7 +21603,7 @@
 //////////////////////////// */
 .section-title {
   padding-bottom: 60px;
-  text-align: center;
+  text-align: left;
 }
 
 .section-title .title-sm-text {
@@ -21618,10 +21618,11 @@
 .section-title h2 {
   color: #ffffff;
   font-family: gilroy, sans-serif;
-  font-weight: 700;
-  font-size: 3.5rem;
-  line-height: 45px;
+  font-weight: 800;
+  font-size: 2.5rem;
+  line-height: 100%;
   letter-spacing: -1px;
+  margin-bottom: 15px;
 }
 
 @media (min-width: 576px) {
@@ -21938,39 +21939,40 @@
   text-transform: uppercase;
   /* margin-bottom: 22px; */
 }
+.hero-content h1 {
+  color: #1f1f1f;
+  font-family: gilroy, sans-serif;
+  font-size: 3.5rem;
+  font-weight: 800;
+  letter-spacing: -2.33px;
+  line-height: 100%;
+  margin-bottom: 10px;
+}
 @media (min-width: 576px) {
   .hero-content h5 {
     font-size: 15px;
 }
 }
-.hero-content h1 {
-  color: #1f1f1f;
-  font-family: gilroy, sans-serif;
-  font-size: 3rem;
-  font-weight: 800;
-  letter-spacing: -2.33px;
-  line-height: 45px;
-  margin-bottom: 10px;
+@media (max-width: 374px) {
+  .hero-content h1 {
+    font-size: 3rem;
+  }
 }
-
 @media (min-width: 480px) {
   .hero-content h1 {
     font-size: 50px;
-    line-height: 60px;
   }
 }
 
 @media (min-width: 576px) {
   .hero-content h1 {
     font-size: 55px;
-    line-height: 65px;
   }
 }
 
 @media (min-width: 768px) {
   .hero-content h1 {
     font-size: 43px;
-    line-height: 45px;
     margin-bottom: 10px;
   }
 }
@@ -21979,14 +21981,12 @@
   .hero-content h1 {
     margin-bottom: 15px;
     font-size: 55px;
-    line-height: 60px;
   }
 }
 
 @media (min-width: 1200px) {
   .hero-content h1 {
     font-size: 70px;
-    line-height: 70px;
   }
 }
 
@@ -22196,6 +22196,7 @@
 .cta-content {
   padding-top: 52px;
   padding-bottom: 60px;
+  text-align: left;
 }
 
 @media (min-width: 992px) {
@@ -22205,25 +22206,20 @@
   }
 }
 
-.cta-content {
-  text-align: center;
-}
-
 .cta-content h2 {
   color: #1f1f1f;
   font-family: gilroy, sans-serif;
   font-family: gilroy, sans-serif;
   font-weight: 700;
   font-size: 3.5rem;
-  line-height: 1;
+  line-height: 100%;
   letter-spacing: -0.53px;
   margin-top: 35px;
 }
 
 @media (min-width: 992px) {
   .cta-content h2 {
-    font-size: 70px;
-    line-height: 70px;
+    font-size: 65px;
   }
 }
 
@@ -22277,7 +22273,7 @@
     flex-direction: row;
   }
   .hero-content{
-    text-align: -webkit-center;
+    text-align: left;
   }
   .hytPlayerWrapOuter {
     text-align: center;
@@ -22296,9 +22292,9 @@
    }
 }
 @media (min-width: 768px){
-  .hero-content {
+  /* .hero-content {
     text-align: left;
-}
+} */
 .subscription-form .form-group {
   -webkit-box-pack: left;
   -ms-flex-pack: left;
@@ -22456,9 +22452,9 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
+  /* -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center;
+          justify-content: center; */
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -22584,14 +22580,18 @@
 /* /////////////////////////// 
     Content Sectio-01
 //////////////////////////// */
+.content-section-firstpage{
+  padding: 1.75% 0;
+}
+
 .content-section-01 {
-  padding: 70px 0;
+  padding: 56.25% 0;
   background-image: -webkit-linear-gradient(0deg, #121212 100%, rgba(0, 0, 0, 0) 0%);
 }
 
 @media (min-width: 768px) {
   .content-section-01 {
-    padding: 220px 0;
+    padding: 28.125% 0;
     background-image: -webkit-linear-gradient(180deg, #121212 57%, rgba(0, 0, 0, 0) 0%);
   }
 }
@@ -22611,12 +22611,12 @@
   }
 }
 .content-right-content {
-  text-align: center;
+  text-align: left;
 }
 
 @media (min-width: 480px) {
   .content-right-content {
-    text-align: left;
+    padding: 50px;
   }
 }
 
@@ -22666,21 +22666,29 @@
   color: #ffffff;
   font-family: gilroy, sans-serif;
   font-weight: 800;
-  font-size: 3.5rem;
-  line-height: 3.5rem;
+  font-size: 2.5rem;
+  line-height: 100%;
   letter-spacing: -1px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
-
+@media (min-width: 375px) {
+  .content-right-content h2 {
+    font-size: 2.8rem;
+  }
+}
+@media (min-width: 425px) {
+  .content-right-content h2 {
+    font-size: 3rem;
+  }
+}
 @media (min-width: 992px) {
   .content-right-content h2 {
     margin-bottom: 18px;
     padding-right: 6px;
-    font-size: 70px;
-    line-height: 70px;
+    font-size: 65px;
   }
   .section-title h2 {
-    font-size: 70px;
+    font-size: 65px;
     line-height: 56px;
 }
 }
@@ -22785,12 +22793,12 @@
     Content_section-02
  /////////////////////*/
 .content-section-02 {
-  padding: 70px 0;
+  padding: 56.25% 0;
 }
 
 @media (min-width: 768px) {
   .content-section-02 {
-    padding: 225px 0;
+    padding: 28.125% 0;
   }
 }
 
@@ -22813,15 +22821,16 @@
 }
 
 .content-left-content {
-  text-align: center;
+  text-align: left;
   margin-bottom: 40px;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 375px) {
   .content-left-content {
-    text-align: left;
+    padding: 10px;
   }
 }
+
 
 @media (min-width: 992px) {
   .content-left-content {
@@ -22837,7 +22846,7 @@
 }
 
 .content-left-content h5 {
-  color: #258aff;
+  color: #ffffff;
   font-family: "Manrope", sans-serif;
   font-size: 15px;
   font-weight: 700;
@@ -22853,15 +22862,25 @@
 }
 
 .content-left-content h2 {
-  color: #1f1f1f;
+  color: #ffffff;
   font-family: gilroy, sans-serif;
   font-weight: 800;
-  font-size: 3.5rem;
-  line-height: 3.5rem;
+  font-size: 2.5rem;
+  line-height: 100%;
   letter-spacing: -1px;
   margin-bottom: 15px;
 }
 
+@media (min-width: 375px) {
+  .content-left-content h2 {
+    font-size: 2.8rem;
+  }
+}
+@media (min-width: 425px) {
+  .content-left-content h2 {
+    font-size: 3rem;
+  }
+}
 @media (min-width: 768px) {
   .content-left-content h2 {
     padding-right: 25px;
@@ -22876,8 +22895,7 @@
 @media (min-width: 992px) {
   .content-left-content h2 {
     padding-right: 10px;
-    font-size: 70px;
-    line-height: 70px;
+    font-size: 65px;
   }
 }
 
@@ -22898,11 +22916,11 @@
 }
 
 .content-left-content p {
-  color: #666666;
+  color: #e4e4e4;
   font-family: "Manrope", sans-serif;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 25px;
+  line-height: 30px;
 }
 
 @media (min-width: 768px) {
