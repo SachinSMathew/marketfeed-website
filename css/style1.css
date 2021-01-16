@@ -21606,6 +21606,12 @@
   text-align: left;
 }
 
+@media (min-width: 1024px) {
+  .section-title {
+    text-align: center;
+  }
+} 
+
 .section-title .title-sm-text {
   color: #fff;
   font-size: 15px;
@@ -21649,7 +21655,7 @@
 
 .site-header {
     width: 100%;
-    padding: 25px 0;
+    padding: 15px 0;
     background-color: #ffffff;
     z-index: 9;
   }
@@ -21928,7 +21934,7 @@
 
 @media (min-width: 768px) {
   .hero-area {
-    padding-top: 120px;
+    padding-top: 100px;
   }
 }
 
@@ -22144,6 +22150,7 @@
 
 /*custom*/
 .we_help{
+  padding-top: 24px;
   background-color: #CA4246;
     background-image: linear-gradient(121deg, #ff4f84 0%, #cc67b6 32%, #9078e4 51%, #737ffa 79%, #6ef9d0 100%);
     -webkit-background-clip: text;
@@ -22202,6 +22209,16 @@
     padding-left: 12%;
   }
 } */
+.win_everyday {
+  width: 430px;
+  height: 446px;
+  margin: 0 0 0 135px;
+  object-fit: contain;
+}
+.scroll3{
+  object-fit: contain;
+}
+
 /* ///////////////////////////
          CTA Section
 //////////////////////////// */
@@ -22599,17 +22616,17 @@
 
 .content-section-01 {
   padding: 28.125% 0;
-  background-image: -webkit-linear-gradient(0deg, #121212 100%, rgba(0, 0, 0, 0) 0%);
+  /* background-image: -webkit-linear-gradient(0deg, #121212 100%, rgba(0, 0, 0, 0) 0%); */
   z-index: 1;
 }
 
 @media (min-width: 768px) {
   .content-section-01 {
-    padding: 14.06% 0;
-    background-image: -webkit-linear-gradient(180deg, #121212 57%, rgba(0, 0, 0, 0) 0%);
+    padding: 7% 0;
+    /* background-image: -webkit-linear-gradient(180deg, #121212 57%, rgba(0, 0, 0, 0) 0%); */
   }
 }
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   .content-section-01 {
     background-image: -webkit-linear-gradient(180deg, #121212 58%, rgba(0, 0, 0, 0) 0%);
   }
@@ -22623,7 +22640,7 @@
   .content-section-01 {
     background-image: -webkit-linear-gradient(180deg, #121212 52%, rgba(0, 0, 0, 0) 0%);
   }
-}
+} */
 .content-right-content {
   text-align: left;
 }
@@ -22677,69 +22694,55 @@
 }
 
 .content-right-content h2 {
-  color: #ffffff;
-  font-family: gilroy, sans-serif;
+  font-family: Gilroy;
   font-weight: 800;
   font-size: 2.5rem;
-  line-height: 100%;
-  letter-spacing: -1px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #121212;
   margin-bottom: 15px;
 }
 @media (min-width: 375px) {
   .content-right-content h2 {
-    font-size: 2.8rem;
-  }
-}
-@media (min-width: 425px) {
-  .content-right-content h2 {
     font-size: 3rem;
   }
 }
+@media (min-width: 768px) {
+  .content-right-content h2 {
+    padding-right: 25px;
+  }
+}
+
 @media (min-width: 992px) {
   .content-right-content h2 {
-    margin-bottom: 18px;
-    padding-right: 6px;
+    padding-right: 10px;
     font-size: 65px;
   }
   .section-title h2 {
     font-size: 65px;
     line-height: 56px;
-}
+  }
 }
 
 @media (min-width: 1200px) {
   .content-right-content h2 {
-    padding-right: 20px;
+    padding-right: 16px;
   }
 }
 
 .content-right-content p {
-  color: #e4e4e4;
-  font-family: "Manrope", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 30px;
-}
-
-@media (min-width: 768px) {
-  .content-right-content p {
-    line-height: 28px;
-    font-size: 15px;
-  }
-}
-
-@media (min-width: 992px) {
-  .content-right-content p {
-    padding-right: 35px;
-    line-height: 32px;
-    font-size: 18px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .content-right-content p {
-    padding-right: 45px;
-  }
+  font-family: "Manrope";
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #121212;
 }
 
 .content-right-content .content-btn {
@@ -22778,29 +22781,42 @@
   }
 }
 
-.content-left-image {
-  width: 50%;
-  padding-bottom: 25px;
-  margin: 0 auto;
-}
-.content-right-image {
-  width: 50%;
-  margin: 0 auto;
-}
 @media (min-width: 576px) {
   .content-left-image {
     width: 100%;
+    margin: auto;
+  }
+  .content-left-image img {
+    width: 100%;
+  }
+  .section_image{
+    margin: auto;
   }
   .content-right-image {
+    width: 100%;
+    margin: auto;
+  }
+  .content-right-image img {
     width: 100%;
   }
 }
 
-.content-left-image img {
-  width: 100%;
-}
-.content-right-image img {
-  width: 100%;
+@media (max-width: 572px) {
+  .content-right-image {
+    margin: 0;
+    width: 50%;
+  }
+  .content-right-image img {
+    width: 200%;
+  }
+  .content-left-image {
+    padding-bottom: 25px;
+    margin: 0;
+    width: 50%;
+  }
+  .content-left-image img {
+    width: 200%;
+  }
 }
 
 /*///////////////////////
@@ -22812,11 +22828,11 @@
 
 @media (min-width: 768px) {
   .content-section-02 {
-    padding: 14.06% 0;
+    padding: 7% 0;
   }
 }
 
-.content-wrapper {
+/* .content-wrapper {
   padding-bottom: 65px;
 }
 
@@ -22824,11 +22840,7 @@
   .content-wrapper {
     padding-bottom: 122px;
   }
-}
-
-.content-right-image img {
-  width: 100%;
-}
+} */
 
 .lg-man-sitting{
   display: none;
@@ -22836,7 +22848,6 @@
 
 .content-left-content {
   text-align: left;
-  margin-bottom: 40px;
 }
 
 @media (min-width: 375px) {
@@ -22848,11 +22859,10 @@
 
 @media (min-width: 992px) {
   .content-left-content {
-    margin-bottom: 95px;
+    padding-top: 150px;
   }
   .content-right-image img {
     height: fit-content;
-    margin-top: -100px !important; 
   }
   .content-left-image img {
     height: fit-content;
@@ -22887,11 +22897,6 @@
 
 @media (min-width: 375px) {
   .content-left-content h2 {
-    font-size: 2.8rem;
-  }
-}
-@media (min-width: 425px) {
-  .content-left-content h2 {
     font-size: 3rem;
   }
 }
@@ -22918,44 +22923,17 @@
     padding-right: 16px;
   }
 }
-@media (min-width: 1400px){
-  .lg-screen-testimonial{
-    margin-top: -275px;
-  }
-  .lg-man-sitting{
-    margin-top: 80px;
-    margin-left: -300px;
-    width: 100%;
-  }
-}
 
 .content-left-content p {
+  font-family: "Manrope";
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
   color: #e4e4e4;
-  font-family: "Manrope", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 30px;
-}
-
-@media (min-width: 768px) {
-  .content-left-content p {
-    font-size: 15px;
-  }
-}
-
-@media (min-width: 992px) {
-  .content-left-content p {
-    padding-right: 35px;
-    font-size: 18px;
-    line-height: 32px;
-    font-weight: 400;
-  }
-}
-
-@media (min-width: 1200px) {
-  .content-left-content p {
-    padding-right: 42px;
-  }
 }
 
 /*/////////////////////////////// 
