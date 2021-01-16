@@ -22149,6 +22149,17 @@
 }
 
 /*custom*/
+.scrolling {
+  
+}
+.scrolling::-webkit-scrollbar {
+  display: none;
+}
+
+.scrolling {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
 .we_help{
   padding-top: 24px;
   background-color: #CA4246;
