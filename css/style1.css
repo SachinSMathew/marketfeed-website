@@ -22216,6 +22216,16 @@
 .cta-content {
   text-align: center;
 }
+@media (max-width: 768px) {
+  .cta-section {
+    padding: 15px 0;
+  }
+}
+@media (max-width: 1023px) {
+  .cta-section {
+    padding: 50px 0;
+  }
+}
 
 @media (min-width: 992px) {
   .cta-content {
