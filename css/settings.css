@@ -21784,6 +21784,8 @@ input[type="number"] {
   letter-spacing: -1.12px;
   font-weight: 700;
   font-size: 18px;
+  min-width: 139px;
+  min-height: 50px;
   -webkit-transition: .4s;
   transition: .4s;
   border-radius: 3px;
@@ -21796,7 +21798,6 @@ input[type="number"] {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  /* height: 50px; */
 }
 .animate-spin {
   -webkit-animation-name: spin;
