@@ -22783,15 +22783,6 @@
     font-size: 18px;
   }
 }
-@media (max-width: 375px) {
-  .content-right-image {
-    margin: 0px;
-    margin-left: 25px;
-  }
-  .content-right-image img {
-    width: 150% !important;
-  }
-}
 
 @media (min-width: 576px) {
   .content-left-image {
