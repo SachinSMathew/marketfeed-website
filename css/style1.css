@@ -22648,9 +22648,9 @@
   text-align: left;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 1024px) {
   .content-right-content {
-    padding: 50px;
+    padding-top: 190px;
   }
 }
 
@@ -22699,7 +22699,7 @@
 .content-right-content h2 {
   font-family: Gilroy;
   font-weight: 800;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-stretch: normal;
   font-style: normal;
   line-height: 1;
@@ -22710,18 +22710,18 @@
 }
 @media (min-width: 375px) {
   .content-right-content h2 {
-    font-size: 3rem;
+    font-size: 2.4rem;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 401px) {
   .content-right-content h2 {
-    padding-right: 25px;
+    font-size: 2.7rem;
   }
 }
 
 @media (min-width: 992px) {
   .content-right-content h2 {
-    padding-right: 10px;
+    /* padding-right: 10px; */
     font-size: 60px;
   }
   .section-title h2 {
@@ -22732,7 +22732,7 @@
 
 @media (min-width: 1200px) {
   .content-right-content h2 {
-    padding-right: 16px;
+    font-size: 4.5rem;
   }
 }
 
