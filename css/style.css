@@ -22208,7 +22208,19 @@
 .scroll3{
   object-fit: contain;
 }
-
+.whatsapp {
+  width: 5%;
+}
+@media (min-width: 992px) {
+  .whatsapp {
+    width: 10%;
+  }
+}
+@media (min-width: 1440px) {
+  .whatsapp {
+    width: 15%;
+  }
+}
 /* ///////////////////////////
          CTA Section
 //////////////////////////// */
