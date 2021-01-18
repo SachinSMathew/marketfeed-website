@@ -22299,8 +22299,6 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    row-gap: 20px;
-    column-gap: 20px;
     -webkit-box-pack: left;
     -ms-flex-pack: left;
     justify-content: left;
