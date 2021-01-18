@@ -21658,11 +21658,11 @@
     z-index: 9;
   }
 
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   .site-header {
     padding: 30px 0;
   }
-}
+} */
 
 .site-header .main-menu {
   margin: 0 -18px;
@@ -22208,19 +22208,38 @@
 .scroll3{
   object-fit: contain;
 }
-.whatsapp {
-  width: 5%;
+
+/* .whatsapp {
+  width: 50px;
 }
 @media (min-width: 992px) {
   .whatsapp {
-    width: 10%;
+    width: 100px;
   }
 }
 @media (min-width: 1440px) {
   .whatsapp {
-    width: 15%;
+    width: 150px;
+  }
+} */
+
+
+
+@media (min-width: 375px) {
+  .playstore_badge {
+    width: 150px;
   }
 }
+
+@media (min-width: 768px) {
+  .appstore_badge {
+    width: 150px
+  }
+  .playstore_badge {
+    width: 155px;
+  }
+}
+
 /* ///////////////////////////
          CTA Section
 //////////////////////////// */
@@ -22281,17 +22300,6 @@
           justify-content: center;
 }
 
-/* .cta-content .cta-btns .apple-store {
-  padding: 0 9px;
-}
-
-.cta-content .cta-btns .google-play {
-  padding: 0 9px;
-} */
-
-/* .app_download_icon {
-  padding: 25px 0 0;
-} */
 
 @media (min-width: 320px){
   .app_download_icon .form-group {
