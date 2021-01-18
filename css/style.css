@@ -21687,7 +21687,7 @@
 }
 
 .main-menu > li > a:hover {
-  color: #258aff;
+  color: #ffc400;
 }
 
 @media (min-width: 992px) {
@@ -21745,7 +21745,7 @@
 
 @media (min-width: 992px) {
   .main-menu .menu-dropdown .single-item:hover a h3 {
-    color: #258aff;
+    color: #ffc400;
   }
 }
 
@@ -22526,7 +22526,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   font-size: 38px;
-  color: #258aff;
+  color: #ffc400;
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -22564,7 +22564,7 @@
 }
 
 .feature-widget:hover .widget-icon {
-  color: #258aff;
+  color: #ffc400;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
@@ -22574,7 +22574,7 @@
 }
 
 .feature-widget.icon-top-round .widget-icon {
-  background-color: #258aff;
+  background-color: #ffc400;
   padding: 16px;
   border-radius: 50px;
   margin-bottom: 34px;
@@ -23016,7 +23016,7 @@
 }
 
 .testimonial-content h5 {
-  color: #258aff;
+  color: #ffc400;
   font-family: "Manrope", sans-serif;
   font-size: 15px;
   font-weight: 700;
@@ -23415,7 +23415,7 @@
 }
 
 .footer-list li a:hover {
-  color: #258aff;
+  color: #ffc400;
 }
 
 .footer-list li:first-child a {

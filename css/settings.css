@@ -21858,7 +21858,7 @@ input[type="number"] {
 }
 
 .btn--primary {
-  background-color: #258aff;
+  background-color: #ffc400;
   color: #FFF;
 }
 
@@ -21875,7 +21875,7 @@ input[type="number"] {
 }
 
 .btn-outlined--primary.btn-hover-simple:hover {
-  background-color: #258aff;
+  background-color: #ffc400;
   color: #fff;
 }
 
@@ -21911,7 +21911,7 @@ input[type="number"] {
 }
 
 .btn--white:hover {
-  color: #258aff;
+  color: #ffc400;
   background-color: rgba(255, 255, 255, 0.8);
 }
 
